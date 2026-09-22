@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Destination</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">00 HOME</a>
+    <a href="destination.html">01 DESTINATION</a>
+  </nav>
+
+  <h2><span>01</span> PICK YOUR DESTINATION</h2>
+
+  <div class="tabs">
+    <button class="tab active" onclick="showPlanet('moon')">MOON</button>
+    <button class="tab" onclick="showPlanet('mars')">MARS</button>
+    <button class="tab" onclick="showPlanet('europa')">EUROPA</button>
+    <button class="tab" onclick="showPlanet('titan')">TITAN</button>
+  </div>
+
+  <div id="moon" class="planet active">
+    <h1>MOON</h1>
+    <p>See our planet as you've never seen it before.</p>
+    <p>Distance: 384,400 km</p>
+    <p>Time: 3 days</p>
+  </div>
+
+  <div id="mars" class="planet">
+    <h1>MARS</h1>
+    <p>Don't forget to pack your hiking boots.</p>
+    <p>Distance: 225 mil km</p>
+    <p>Time: 9 months</p>
+  </div>
+
+  <div id="europa" class="planet">
+    <h1>EUROPA</h1>
+    <p>Winter lover's dream.</p>
+    <p>Distance: 628 mil km</p>
+    <p>Time: 3 years</p>
+  </div>
+
+  <div id="titan" class="planet">
+    <h1>TITAN</h1>
+    <p>Home away from home.</p>
+    <p>Distance: 1.6 bil km</p>
+    <p>Time: 7 years</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
